@@ -1,0 +1,27 @@
+.a{
+    font-size: 100px;
+    color: red;
+}
+
+@media screen and  (max-width: 600px){
+   .a{
+    font-size: 60px;
+    color: aqua;
+   }
+}
+@media screen and  (min-width: 600px) and (max-width:760px){
+    .a{
+     font-size: 75px;
+     color:darkgoldenrod;
+    }
+ }
+ @media screen and  (min-width: 760px) and (max-width:900px){
+    .a{
+     font-size: 85px;
+     color:brown;
+    }
+ }
+
+
+    
+ 
